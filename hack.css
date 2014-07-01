@@ -17,78 +17,243 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
-body{
-    color:#fff;
+body {
+    color: #fff;
 }
 
-h1{
+h1 {
     font-family: "Skolar Regular", "Roboto Slab", "Droid Serif", Cambria, Georgia, "Times New Roman", Times, serif;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
-    display:inline;
+    display: inline;
 }
 
-h3{
+@font-face {
+    font-family: myFirstFont;
+    src: url(AguafinaScript-Regular.woff);
+}
+
+@font-face {
+    font-family: mysecondFont;
+    src: url(AdineKirnberg-Script.woff);
+}
+
+@font-face {
+    font-family: mystenFont;
+    src: url(stencil.woff);
+}
+
+h5 {
+    font-weight: 800;
+    font-size: 2em;
+    font-family: mystenFont;
+    display: inline;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 3em;
+    font-family: mysecondFont;
+    display: inline;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 1.75em;
+    font-family: myFirstFont;
+    display: inline;
+}
+
+h4 {
+    font-family: "Proxima Nova Regular", "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+    display: inline;
+    font-size: 1em;
+    font-style: normal;
+}
+
+h3 {
     font-family: "Proxima Nova Regular", "Segoe UI", Roboto, "Droid Sans", "Helvetica Neue", Arial, sans-serif;
     font-weight: 300;
-    font-style: normal;
-    display:inline;
+    display: inline;
     font-size: 1em;
-    font-style: oblique;
+    font-style: normal;
 }
 
-.title{
+.title {
     position: absolute;
-    margin-left:25px;
-    padding-top:20px;
-    width:400px;
-    display:inline;
+    margin-left: 25px;
+    padding-top: 20px;
+    display: inline;
 }
-a{
+
+a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 }
 
-.menu{
+.menu {
     position: absolute;
-    float:left;
-    margin-left:900px;
-    margin-top: 30px;
+    float: left;
+    margin-left: 800px;
+    margin-top: 20px;
 }
 
-ul li{
-    float:left;
+ul li {
+    float: left;
     list-style-type: none;
-    width:80px;
-    height:40px;
-    padding-left: 25px;
-    border-radius: 5px solid;
+    width: 90px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1.15em;
+
 }
 
-ul li:hover{
-    background-color: #4CBB17;
+ul li:hover {
+    background-color: #61B329;
+    border: 2px;
+    border-radius: 5px;
 }
 
-header{
-    width:1550px;
-    height:70px;
+header {
+    width: auto;
+    height: 70px;
     background-color: #2F4F2F;
 }
 
-.image
-{
-    width:700px;
-    height:423px;
-    float:left;
+.image-div {
+
+    width: 750px;
+    height: 620px;
+    float: left;
 }
 
-.content{
-    margin-top:200px;
-    width:600px;
-    padding-right:30px;
-    display:inline;
+.image {
+    width: 650px;
+    height: 420px;
 }
-.wrapper{
-    height: 673px;
-    background: -webkit-linear-gradient(#00cc00, #006600);
+
+.content {
+    display: inline-block;
+    width:400px;
+}
+
+.inner {
+    padding-top: 60px;
+    text-align: justify;
+}
+
+.wrapper1 {
+    height: 693px;
+    background: -webkit-linear-gradient(#7FB90D, #006600);
+}
+
+.wrapper2 {
+    height: 763px;
+    background: -webkit-linear-gradient(#FCBB39, #CB4605);
+}
+
+.wrapper3 {
+    height: 723px;
+    background: -webkit-linear-gradient(#FFB6F2, #972271);
+}
+
+p {
+    line-height: 20px;
+    text-align: justify;
+}
+
+.left-pane {
+    float: left;
+    width: 500px;
+    height: 700px;
+    margin-left: 250px;
+    /*background-color: #fff;*/
+}
+
+.wrap2-cont {
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    /*background-color: #fff;*/
+
+}
+
+.desc {
+    padding-top: 10px;
+}
+
+.desc-img {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 20px;
+}
+
+.abtus {
+    clear:left;
+    margin-top: 100px;
+
+}
+
+.right-pane {
+    width: 200px;
+    height: 763px;
+    /*background-color: #fff;*/
+}
+
+.new{
+    position: relative;
+    top: 70px;
+    font-weight: 800;
+    left:600px
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    background-color: #A53685;
+    padding-top: 50px;
+    padding-left:50px;
+}
+
+.container{
+    margin-left:250px ;
+    margin-top: 80px;
+    width:950px;
+    height:550px;
+
+}
+
+.sub1 {
+    width:150px;
+    height:500px;
+    float:left;
+    padding-right:85px;
+}
+
+
+.bottom-text
+{
+margin-top: 35px;
+ width:175px;
+    padding-left: 10px;
+}
+
+footer{
+    width:auto;
+    height:20px;
+    background-color: #5DBCD2;
+}
+.button{
+   position: absolute;
+    top: 2150px;
+    width:115px;
+    height:35px;
+    background-color: #A53685;
+    color: #fff;
+    margin-left: 10px;
+    border-radius: 5px;
 }
