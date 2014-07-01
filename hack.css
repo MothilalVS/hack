@@ -28,6 +28,10 @@ h1 {
     display: inline;
 }
 
+div.title h1{
+    font-weight: 800;
+}
+
 @font-face {
     font-family: myFirstFont;
     src: url(AguafinaScript-Regular.woff);
@@ -198,11 +202,56 @@ p {
 }
 
 .right-pane {
-    width: 200px;
-    height: 763px;
+    position:absolute;
+    top:850px;
+    left:885px;
+    width: 400px;
+    height: 700px;
     /*background-color: #fff;*/
 }
 
+.red-circle {
+    width: 275px;
+    height: 250px;
+    border-radius: 80%;
+    background-color: #CD4106;
+    padding-top: 75px;
+    padding-left:75px;
+}
+
+.small-cir2 ,.small-cir1 {
+    width: 75px;
+    height: 45px;
+    border-radius: 80%;
+    background-color: #FCBB39;
+    position:absolute;
+    top:1165px;
+    left:950px;
+}
+
+.small-cir2{
+    width: 25px;
+    height: 25px;
+    top:1200px;
+    left:925px;
+}
+
+.img{
+    position:absolute;
+    top:1175px;
+    left:675px;
+
+}
+
+.fonty1 .fonty2{
+    font-family: "Times New Roman";
+    padding-left: 10px;
+}
+
+.fonty2{
+    color:#FCBB39;
+    font-size: 30px;
+}
 .new{
     position: relative;
     top: 70px;
